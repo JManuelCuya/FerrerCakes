@@ -1,0 +1,321 @@
+header {
+  background-color: #f0e9e9;
+  border-bottom: 1px solid #f8f3f3;
+  display: flex;
+  position: relative; }
+  header nav {
+    display: flex;
+    width: 100%;
+    margin: auto; }
+    header nav ul {
+      margin: auto; }
+      header nav ul li {
+        display: inline-block;
+        padding: 20px; }
+        header nav ul li a {
+          color: black;
+          font-family: 'Bebas Neue', cursive;
+          font-size: 26px;
+          padding: 20px;
+          text-decoration: none; }
+  header .urlLogo {
+    width: 6%; }
+    header .urlLogo .logo {
+      width: 100%; }
+
+.mainIndex {
+  width: 100%; }
+  .mainIndex .productoIndex {
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    margin: auto; }
+    .mainIndex .productoIndex .contProd {
+      width: 20%; }
+      .mainIndex .productoIndex .contProd .itemProd {
+        width: 100%;
+        display: block; }
+        .mainIndex .productoIndex .contProd .itemProd img {
+          width: 100%; }
+        .mainIndex .productoIndex .contProd .itemProd p:nth-child(2) {
+          font-family: 'Merienda', cursive;
+          font-size: 18px; }
+        .mainIndex .productoIndex .contProd .itemProd p:nth-child(3) {
+          font-family: 'Merienda', cursive;
+          font-size: 18px;
+          color: red; }
+  .mainIndex section {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: auto; }
+    .mainIndex section .container {
+      position: relative;
+      width: 32.8%;
+      height: 200px; }
+      .mainIndex section .container:hover .overlay {
+        opacity: 0.6; }
+      .mainIndex section .container .image {
+        display: block;
+        width: 100%;
+        height: 200px; }
+      .mainIndex section .container .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .9s ease;
+        background-color: #e64ad1; }
+        .mainIndex section .container .overlay .text {
+          color: white;
+          font-size: 76px;
+          position: absolute;
+          font-family: 'Lobster', cursive;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center; }
+  .mainIndex .ultimoTrabajo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 90%; }
+    .mainIndex .ultimoTrabajo .itemTrabajo {
+      width: 24.4%; }
+      .mainIndex .ultimoTrabajo .itemTrabajo img {
+        width: 100%; }
+
+.mainProducto section {
+  width: 100%; }
+  .mainProducto section #divProducto {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px; }
+    .mainProducto section #divProducto div {
+      width: 19.5%;
+      border: 1px solid #ccc;
+      box-shadow: 7px 7px 15px #a1a2a8;
+      padding: 40px;
+      text-align: center; }
+      .mainProducto section #divProducto div img {
+        width: 100%; }
+      .mainProducto section #divProducto div p:nth-child(3) {
+        font-family: 'Merienda', cursive;
+        font-size: 18px; }
+      .mainProducto section #divProducto div p:nth-child(4) {
+        font-family: 'Merienda', cursive;
+        font-size: 18px;
+        color: red; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  margin: auto; }
+
+h2 {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 48px;
+  padding: 20px; }
+
+footer {
+  width: 100%; }
+  footer .social {
+    background-color: #736d75;
+    padding: 25px;
+    text-align: right;
+    width: 100%; }
+    footer .social .descripcionFooter {
+      width: 100%;
+      display: flex;
+      border-bottom: solid 1px #404444;
+      margin-bottom: 20px; }
+      footer .social .descripcionFooter .contacto {
+        text-align: left;
+        width: 25%;
+        margin: 0 0 0 60px;
+        font-family: 'Bebas Neue', cursive; }
+        footer .social .descripcionFooter .contacto h3 {
+          font-size: 32px; }
+        footer .social .descripcionFooter .contacto p {
+          padding: 10px 0px 10px 0; }
+      footer .social .descripcionFooter .politica {
+        text-align: left;
+        width: 25%;
+        font-family: 'Bebas Neue', cursive; }
+        footer .social .descripcionFooter .politica h3 {
+          font-size: 32px; }
+        footer .social .descripcionFooter .politica p {
+          padding: 10px 0px 10px 0; }
+    footer .social .social-icon {
+      display: inline-block;
+      justify-content: center;
+      margin: 2px 0px 0px 0px;
+      text-decoration: none;
+      font-size: 28px;
+      color: #fff;
+      padding: 10px; }
+      footer .social .social-icon .fa {
+        color: #404444; }
+
+#container-slider {
+  position: relative;
+  display: block;
+  width: 100%; }
+
+#slider {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 500px; }
+
+#slider li {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100%;
+  height: 100%;
+  display: block;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  z-index: -1;
+  opacity: 0; }
+
+#container-slider .arrowPrev,
+#container-slider .arrowNext {
+  font-size: 30pt;
+  color: rgba(204, 204, 204, 0.65);
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  z-index: 2; }
+
+#container-slider .arrowNext {
+  left: initial;
+  right: 50px !important; }
+
+.content_slider {
+  padding: 15px 30px;
+  color: #FFF;
+  width: 100%;
+  height: 100%; }
+
+.content_slider div {
+  text-align: center; }
+
+.content_slider h2 {
+  font-family: 'arial';
+  font-size: 30pt;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+
+.content_slider p {
+  font-size: 15pt;
+  font-family: 'arial';
+  color: #FFF;
+  margin-bottom: 20px; }
+
+#slider li .content_slider {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 125px; }
+
+.content_slider {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.btnSlider {
+  color: #FFF;
+  font-size: 15pt;
+  font-family: 'arial';
+  letter-spacing: 1px;
+  padding: 10px 50px;
+  border: 1px solid #CCC;
+  background: rgba(13, 13, 13, 0.55);
+  border-radius: 31px;
+  text-decoration: none;
+  transition: .5s all; }
+
+.btnSlider:hover {
+  background: #111;
+  border: 1px solid #111; }
+
+.listslider {
+  position: absolute;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  left: 50%;
+  bottom: 5%;
+  list-style: none;
+  z-index: 2;
+  transform: translateX(-50%); }
+
+.listslider li {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  margin: 0 5px; }
+
+.listslider li a {
+  background: #CCC;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+.item-select-slid {
+  background: #FFF !important; }
+
+@media screen and (max-width: 460px) {
+  .content_slider h2 {
+    font-size: 15pt !important; }
+  .content_slider p {
+    font-size: 12pt !important; }
+  #container-slider .arrowPrev,
+  #container-slider .arrowNext {
+    font-size: 20pt; }
+  #container-slider .arrowPrev {
+    left: 15px; }
+  #container-slider .arrowNext {
+    right: 15px !important; }
+  #slider {
+    height: 400px;
+    min-height: 400px; }
+  #slider li .content_slider {
+    padding: 10px 35px; }
+  .btnSlider {
+    padding: 10px 30px;
+    font-size: 10pt; } }

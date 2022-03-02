@@ -1,0 +1,50 @@
+            footer {
+                width: 100%;
+                .social {
+                    background-color: rgb(115, 109, 117);
+                    padding: 25px;
+                    text-align: right;
+                    width: 100%;
+                    .descripcionFooter {
+                        width: 100%;
+                        display: flex;
+                        border-bottom: solid 1px rgb(64, 68, 68);
+                        margin-bottom: 20px;
+                        .contacto {
+                            text-align: left;
+                            width: 25%;
+                            margin: 0 0 0 60px;
+                            font-family: 'Bebas Neue', cursive;
+                            h3 {
+                                font-size: 32px;
+                            }
+                            p {
+                                padding: 10px 0px 10px 0;
+                            }
+                        }
+                        .politica {
+                            text-align: left;
+                            width: 25%;
+                            font-family: 'Bebas Neue', cursive;
+                            h3 {
+                                font-size: 32px;
+                            }
+                            p {
+                                padding: 10px 0px 10px 0;
+                            }
+                        }
+                    }
+                    .social-icon {
+                        display: inline-block;
+                        justify-content: center;
+                        margin: 2px 0px 0px 0px;
+                        text-decoration: none;
+                        font-size: 28px;
+                        color: #fff;
+                        padding: 10px;
+                        .fa {
+                            color: rgb(64, 68, 68);
+                        }
+                    }
+                }
+            }

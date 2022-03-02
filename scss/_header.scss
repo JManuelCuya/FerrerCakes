@@ -1,0 +1,31 @@
+    header {
+        background-color: rgb(240, 233, 233);
+        border-bottom: 1px solid rgb(248, 243, 243);
+        display: flex;
+        position: relative;
+        nav {
+            display: flex;
+            width: 100%;
+            margin: auto;
+            ul {
+                margin: auto;
+                li {
+                    display: inline-block;
+                    padding: 20px;
+                    a {
+                        color: rgb(0, 0, 0);
+                        font-family: 'Bebas Neue', cursive;
+                        font-size: 26px;
+                        padding: 20px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .urlLogo {
+            width: 6%;
+            .logo {
+                width: 100%;
+            }
+        }
+    }

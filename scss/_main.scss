@@ -1,0 +1,117 @@
+.mainIndex {
+    width: 100%;
+    .productoIndex {
+        width: 90%;
+        display: flex;
+        gap: 10px;
+        margin: auto;
+        .contProd {
+            width: 20%;
+            .itemProd {
+                width: 100%;
+                display: block;
+                img {
+                    width: 100%;
+                }
+                p:nth-child(2) {
+                    font-family: 'Merienda', cursive;
+                    font-size: 18px;
+                }
+                p:nth-child(3) {
+                    font-family: 'Merienda', cursive;
+                    font-size: 18px;
+                    color: red;
+                }
+            }
+        }
+    }
+    section {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin: auto;
+        .container {
+            position: relative;
+            width: 32.8%;
+            height: 200px;
+            &:hover .overlay {
+                opacity: 0.6;
+            }
+            .image {
+                display: block;
+                width: 100%;
+                height: 200px;
+            }
+            .overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .9s ease;
+                background-color: rgb(230, 74, 209);
+                .text {
+                    color: white;
+                    font-size: 76px;
+                    position: absolute;
+                    font-family: 'Lobster', cursive;
+                    top: 50%;
+                    left: 50%;
+                    -webkit-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .ultimoTrabajo {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 90%;
+        .itemTrabajo {
+            width: 24.4%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.mainProducto {
+    section {
+        width: 100%;
+        #divProducto {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            gap: 10px;
+            div {
+                width: 19.5%;
+                border: 1px solid #ccc;
+                box-shadow: 7px 7px 15px #a1a2a8;
+                padding: 40px;
+                text-align: center;
+                img {
+                    width: 100%;
+                }
+                p:nth-child(3) {
+                    font-family: 'Merienda', cursive;
+                    font-size: 18px;
+                }
+                p:nth-child(4) {
+                    font-family: 'Merienda', cursive;
+                    font-size: 18px;
+                    color: red;
+                }
+            }
+        }
+    }
+}
