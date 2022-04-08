@@ -1,0 +1,68 @@
+[{
+        "codigo": 1,
+        "nombre": "Torta Star",
+        "presentacion": "15 porciones",
+        "precio": 75,
+        "img": "../images/productos/torta-cafe.jpg"
+    },
+    {
+        "codigo": 2,
+        "nombre": "Torta Star",
+        "presentacion": "15 porciones",
+        "precio": 75,
+        "img": "../images/productos/torta-dama.jpg"
+    }, {
+        "codigo": 3,
+        "nombre": "Torta Star",
+        "presentacion": "15 porciones",
+        "precio": 75,
+        "img": "../images/productos/torta-cafe.jpg"
+    },
+    {
+        "codigo": 4,
+        "nombre": "Torta Star",
+        "presentacion": "15 porciones",
+        "precio": 75,
+        "img": "../images/productos/torta-dama.jpg"
+    }, {
+        "codigo": 5,
+        "nombre": "Torta Star",
+        "presentacion": "15 porciones",
+        "precio": 75,
+        "img": "../images/productos/torta-cafe.jpg"
+    },
+    {
+        "codigo": 6,
+        "nombre": "Torta Star",
+        "presentacion": "15 porciones",
+        "precio": 75,
+        "img": "../images/productos/torta-dama.jpg"
+    }, {
+        "codigo": 7,
+        "nombre": "Torta Star",
+        "presentacion": "15 porciones",
+        "precio": 75,
+        "img": "../images/productos/torta-cafe.jpg"
+    },
+    {
+        "codigo": 8,
+        "nombre": "Torta Star",
+        "presentacion": "15 porciones",
+        "precio": 75,
+        "img": "../images/productos/torta-dama.jpg"
+    }, {
+        "codigo": 9,
+        "nombre": "Torta Star",
+        "presentacion": "15 porciones",
+        "precio": 75,
+        "img": "../images/productos/torta-cafe.jpg"
+    },
+    {
+        "codigo": 10,
+        "nombre": "Torta Star",
+        "presentacion": "15 porciones",
+        "precio": 75,
+        "img": "../images/productos/torta-dama.jpg"
+    }
+
+]

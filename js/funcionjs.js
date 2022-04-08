@@ -1,4 +1,3 @@
-//CARROUSEL
 if (document.querySelector('#container-slider')) {
     setInterval('fntExecuteSlide("next")', 5000);
 }
@@ -53,6 +52,7 @@ function fntExecuteSlide(side) {
 
 //FIN DE CARROUSEL
 //INICIO DE METDDOS Y CLASES
+/*
 function CalculoVenta(producto, cantidad) {
     var precio = 0;
     let IGV = 0.18;
@@ -134,4 +134,4 @@ const cliente3 = new Cliente("cli003", "Rebeca", "Almeyda", "987 425 478", "Rebe
 let cliente = [cliente1, cliente2, cliente3]
 for (let clientesArreglo of cliente) {
     console.log(clientesArreglo)
-}
+}*/

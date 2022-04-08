@@ -112,6 +112,61 @@
                     color: red;
                 }
             }
+            .btn {
+                a {
+                    color: white;
+                }
+            }
         }
+    }
+}
+
+.mainClienteRegistro {
+    padding: 20px;
+    margin: 30px auto;
+    width: 25%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(146, 0, 105);
+    font-family: 'Staatliches', cursive;
+    font-size: 18px;
+    .btn {
+        padding: 20px;
+        width: 100%;
+        font-size: 24px;
+        background-color: #e083ec;
+        border-color: #ee29bd;
+        color: rgb(58, 57, 57);
+        &:hover {
+            color: aliceblue
+        }
+    }
+}
+
+.mainQuienes {
+    width: 80%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: fr fr fr;
+    grid-template-areas: "h1 h1" "contQuienes img";
+    padding: 20px;
+    h1 {
+        grid-area: h1;
+        font-family: 'Amatic SC', cursive;
+    }
+    .contQuienes {
+        width: 100%;
+        grid-area: contQuienes;
+        p {
+            text-align: justify;
+            padding: 20px;
+            font-family: 'Amatic SC', cursive;
+            font-size: 18px;
+            color: rgb(114, 111, 111);
+        }
+    }
+    img {
+        width: 100%;
+        grid-area: img;
     }
 }

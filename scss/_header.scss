@@ -1,31 +1,40 @@
-    header {
-        background-color: rgb(240, 233, 233);
-        border-bottom: 1px solid rgb(248, 243, 243);
+header {
+    background-color: rgb(240, 233, 233);
+    border-bottom: 1px solid rgb(248, 243, 243);
+    display: flex;
+    position: relative;
+    nav {
         display: flex;
-        position: relative;
-        nav {
-            display: flex;
-            width: 100%;
+        width: 100%;
+        margin: auto;
+        ul {
             margin: auto;
-            ul {
-                margin: auto;
-                li {
-                    display: inline-block;
+            li {
+                display: inline-block;
+                padding: 20px;
+                a {
+                    color: rgb(0, 0, 0);
+                    font-family: 'Bebas Neue', cursive;
+                    font-size: 26px;
                     padding: 20px;
-                    a {
-                        color: rgb(0, 0, 0);
-                        font-family: 'Bebas Neue', cursive;
-                        font-size: 26px;
-                        padding: 20px;
-                        text-decoration: none;
-                    }
+                    text-decoration: none;
                 }
             }
         }
-        .urlLogo {
-            width: 6%;
-            .logo {
-                width: 100%;
-            }
+    }
+    .urlLogo {
+        width: 5%;
+        margin: auto;
+        .logo {
+            width: 75%;
         }
     }
+    .iconCar {
+        color: black;
+        margin: auto 20px;
+        font-size: 24px;
+        &:hover {
+            color: black;
+        }
+    }
+}
